@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: launchpad
+    database: Launchmart
+    schema: raw
+    tables:
+      -name: customers
+      -name: loyalty_points
+      -name: orders
+      -name: order_items
+      -name: products
+
